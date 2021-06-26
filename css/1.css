@@ -1,0 +1,94 @@
+.pic{
+    height: 750px;
+    width: 400px;
+    /* background-color: violet; */
+    padding-top: 50px;
+    float: left;
+}
+/* 图片区 */
+.pic-in{
+    height: 300px;
+    width: 200px;
+    /* background-color: teal; */
+    margin-left: 100px;
+}
+/* 图片 */
+.pic-text{
+    height: 200px;
+    width: 280px;
+    margin-left: 60px;
+    margin-top: 30px;
+    /* background-color: tomato; */
+}
+/* 文字 */
+.tab2 td{
+    text-align: center;
+    line-height: 20px;
+    height: 24px;
+    font-weight: bold;
+}
+
+/* 个人简介 */
+
+/* 左侧 */
+.shouye{
+    height: 600px;
+    width: 1200px;
+    /* background-color: yellow; */
+    margin-left: 400px;
+    
+}
+
+.shouye-text{
+    height: 500px;
+    padding: 50px;
+    width: 1100px;
+    color: white;
+    font-weight: bold;
+}
+
+/* 右侧 */
+
+/* 全局渐变效果 */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    background-image: linear-gradient(125deg,#E4FFCD,#6DD5FA,#2980B9,#E4FFCD);  
+    /* 倾斜角度与渐变颜色  线性渐变*/
+    background-size: 300%;
+    animation: bganimation 15s infinite;
+    /* 动画时间 */
+}
+   
+.text{
+    margin: 0;
+}
+   
+/* @keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 100%;
+    }
+    /* 渐变颜色起始位置 */
+
+/* }css动画渐变效果 */
+/* 使用会引起页面卡顿 */
+
+
+p{
+    font-size: 17px;
+    line-height: 30px;
+}
+
+p:hover{
+
+    color: rgb(156, 245, 240);
+    font-size: 24px;
+}
+/* 段落与段落悬浮效果 */

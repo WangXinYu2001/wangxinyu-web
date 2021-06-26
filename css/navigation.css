@@ -1,0 +1,38 @@
+.navigation{
+    /* background-color: rgb(50, 216, 216);*/
+    background: url(../img/2321.png) repeat-x;
+    width: 100%; 
+    height: 43px;
+    margin: 0 auto;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+/* 导航区 */
+.tab1 td{
+    height: 41px;
+    width: 100px;
+    text-align: right;
+    /* background-color: tan; */
+    opacity: 1;
+}
+
+.tab1 td:hover{
+    border-bottom: 2px solid rgb(0, 183, 255);
+}
+/* 导航栏内部单元格 */
+a{
+    text-decoration: none;
+    color: rgb(39, 41, 129);
+    font-weight: bold;
+}
+
+a:hover{
+    color: slateblue;
+}
+/* 导航区超链接 */
+
+#na-4{
+    position: fixed;
+    top: 0px;
+    
+}

@@ -1,0 +1,262 @@
+.information{
+    height: 1300px;
+    width: 1280px;
+    margin: 0 auto;
+    /* background-color: violet; */
+}
+/* 个人介绍 */
+.top{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    height: 120px;
+    width: 120px;
+    background-color: skyblue;
+}
+
+#top1{
+    left: 10px;
+}
+
+#top2{
+    left: 10px;
+    bottom: 190px;
+}
+
+#top3{
+    left: 10px;
+    bottom: 330px;
+}
+/* 定位框 */
+.bg-1{
+    background: url(../img/html4/bili-bg.webp);
+    width: 1280px;
+    height: 200px;
+}
+/* 背景框1 */
+.bg-text{
+    position: relative;
+    top:-130px;
+    margin-left: 200px;
+    /* background-color: crimson; */
+    width: 800px;
+    height: 150px;
+    padding-top: 50px;
+    color: black;
+    font-family: "FZShuTi" ,"microsoft yahei",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+/* 背景图1文字*/
+.box1{
+    background: url(../img/html4/头像.jpg);
+    background-size: 100px 100px;
+    position: relative;
+    left: -560px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    border: 2px solid #e4007e;
+    text-align: center;
+    line-height: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    /* background: burlywood; */
+    border-radius: 50%;/*圆角百分比 */
+}
+
+#box2{
+    background: url(../img/html4/barrett看中国.jpg);
+    background-size: 100px 100px;
+    left: -560px;
+    top: 30px;
+}
+
+#box3{
+    background: url(../img/html4/小约翰可汗.jpg);
+    background-size: 100px 100px;
+    left: 560px;
+    top: -50px;
+}
+
+#box4{
+    background: url(../img/html4/GM.jpg);
+    background-size: 100px 100px;
+    left: -560px;
+    top: -180px;
+}
+
+#box5{
+    background: url(../img/html4/山下智博.jpg);
+    background-size: 100px 100px;
+    left: 560px;
+    top: -280px;
+}
+/* 圆形头像框 */
+.duihuakuang{
+    background-image: url(../img/html4/对话框.png);
+    background-size: 1000px 120px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 110px;
+    width: 900px;
+    /* background-color: brown; */
+    position: relative;
+    left: 200px;
+    top: -100px;
+}
+
+#duihuakuang2{
+    background-image: url(../img/html4/对话框\ -\ 副本.png);
+    left: 100px;
+    top: -200px;   
+}
+
+#duihuakuang3{
+    left: 200px;
+    top: -300px;   
+}
+
+#duihuakuang4{
+    background-image: url(../img/html4/对话框\ -\ 副本.png);
+    left: 100px;
+    top: -400px;   
+}
+/* 对话框的相对位置 */
+.text{
+    height: 750px;
+    width: 1280px;
+    background-color: rgba(0,0,0,.5);
+}
+/* 介绍区文字部分 背景选用透明色 */
+.wenzi{
+    width: 1280px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* 欢迎收看区 */
+#badminton{
+    margin-top: 20px;
+    height: 860px;
+}
+
+.bad-pic{
+    margin: 20px 20px;
+    width: 980px;
+    height: 300px;
+    float: left;
+}
+/* 羽毛球明星图片 */
+.bad-text{
+    /* background-color: blue; */
+    width: 600px;
+    height: 260px;
+    margin-right: 20px;
+    padding: 20px;
+    float: left;
+    transition: ease-in .3s;
+    background: linear-gradient(0, #eecc36 4px, #108b96 4px) no-repeat, 
+                linear-gradient(-90deg, #ecc410 4px, #108b96 4px) no-repeat, 
+                linear-gradient(-180deg, #c4a107 4px, #108b96 4px) no-repeat, 
+                linear-gradient(-270deg, #fcff44 4px, #108b96 4px) no-repeat;
+    background-size: 0 2px, 2px 0, 0 2px, 2px 0;
+    background-position: left top, right top, right bottom, left bottom;
+}
+/* 文字介绍框+悬浮动画 */
+.bad-text:hover{
+    background-size: 100% 4px,  4px 100%, 100% 4px, 4px 100%;
+}
+
+/* 悬浮 */
+#bad-textbot{
+    width: 1200px;
+    height: 100px;
+}
+
+#bad-picbot{
+    width: 1200px;
+    height: 100px;
+}
+/* 多余的空间准备摆放文字 */
+
+.badminton-left{
+    background: url(../img/html4/羽毛球.png);
+    background-size: 1280px 860px;
+    width: 1280px;
+    /* background-color: black; */
+    height: 860px;
+    float: left;
+}
+/* 羽毛球区 */
+
+
+#yinyue{
+    background: url(../img/视觉中国.png);
+    background-size: 1280px 800px;
+    height: 800px;
+}
+.jieshao1{
+    height: 730px;
+    width: 600px;
+    margin: 30px;
+    /* background-color: blue; */
+    float: left;
+} 
+
+.jieshao2{
+    height: 740px;
+    width: 580px;
+    padding: 30px 20px 30px 0px;
+    margin-left: 650px;
+    /* background-color: blue; */
+} 
+
+
+.jieshao2-img{
+    width: 560px;
+    height: 300px;
+}
+
+.jieshao2-text{
+    width: 415px;
+    height: 300px;
+    /* background-color: wheat; */
+    float: left;
+}
+
+.jieshao-p{
+    color: white;
+    line-height: 16px;
+    text-indent: 2em;
+}
+
+/* 音乐区 */
+.bg{
+    height: 100%;
+    width: 100%;
+    background: url(../img/html4/边框.jpg) repeat-x;
+    background-size: 861px;
+    background-attachment: scroll;
+}
+
+/* 总背景，选择滚动 */
+
+.p1{
+    text-indent: 2em;
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.p1:hover{
+    text-indent: 2em;
+    font-size: 20px;
+    color: rgb(156, 245, 240);
+}

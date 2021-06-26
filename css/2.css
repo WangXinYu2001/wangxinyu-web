@@ -1,0 +1,73 @@
+.overall{
+    background: url(../img/背景2.png);
+}
+/* 背景区 */
+.school-all{
+    width: 1450px;
+    height: 750px;
+    background-color: white;
+    margin: 20px auto;
+}
+/* 总学校区 */
+.school{
+    /* background-color: darkblue; */
+    background-color: white;
+    width: 100%;
+    height: 230px;
+    padding-top: 20px;
+    transition: ease-in .3s;
+    background: linear-gradient(0, #108b96 2px, #108b96 2px) no-repeat, 
+                linear-gradient(-90deg, #108b96 2px, #108b96 2px) no-repeat, 
+                linear-gradient(-180deg, #108b96 2px, #108b96 2px) no-repeat, 
+                linear-gradient(-270deg, #108b96 2px, #108b96 2px) no-repeat;
+    background-size: 0 2px, 2px 0, 0 2px, 2px 0;
+    background-position: left top, right top, right bottom, left bottom;
+}
+/* 鼠标悬浮动画 */
+.school:hover{
+    background-color: rgb(182, 241, 212);
+    background-size: 100% 4px,  4px 100%, 100% 4px, 4px 100%;
+}
+
+#yingtian{
+    height: 728px;
+}
+
+/* 学校区 */
+.school-in-pic{
+    margin-left: 50px;
+    /* background-color: chartreuse; */
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+}
+/* 图片 */
+.school-in-text{
+    margin-left: 380px;
+    background-color: #b39858;
+    width: 970px;
+    height: 200px;
+    color: black;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    text-indent: 2em;
+}
+#yingtian-in-text{
+    height: 690px;
+}
+/* 文字 */
+.more{
+    float: right;
+}
+/* 链接区域 */
+.back{
+    /* background-color: rgb(50, 216, 216);*/
+    background: url(../img/2321.png) repeat-x;
+    width: 100%; 
+    height: 43px;
+    margin: 0 auto;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+/* 返回区 给hanliang用的 */
